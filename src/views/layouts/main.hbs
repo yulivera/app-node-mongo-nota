@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Notes app</title>
+	<!-- bootstrap 4 -->
+	<link rel="stylesheet" href="/core_1/css/bootstrap.min.css">
+	<!-- FONTAWESOME -->
+	<!-- <link href="/core_1/fontawesome-free/css/all.min.css"> -->
+	<link href="/core_1/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<!-- my styles -->
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+{{> navigation}}
+
+		{{> messages }}
+		{{> errors }}
+		{{{ body }}}
+
+{{!-- SCRIPTS --}}
+<script src="/core_1/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/core_1/js/bootstrap.min.js" ></script>
+<script src="/core_1/js/popper.min.js" ></script>
+
+<script src="/core_1/fontawesome-free/css/fontawesome.min.css"></script>
+
+</body>
+</html>
